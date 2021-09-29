@@ -17,15 +17,15 @@ int main() {
             break;
         case '-':
             output = num1 - num2;
-            printf("%f + %f = %f", num1, num2, output);
+            printf("%f - %f = %f", num1, num2, output);
             break;
         case '*':
             output = num1 * num2;
-            printf("%f + %f = %f", num1, num2, output);
+            printf("%f * %f = %f", num1, num2, output);
             break;
         case '/':
             output = num1 / num2;
-            printf("%f + %f = %f", num1, num2, output);
+            printf("%f / %f = %f", num1, num2, output);
             break;
         default:
             printf("Error! Operator not correct!");
